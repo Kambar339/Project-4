@@ -1,0 +1,86 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.ToDoButton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.ToDoButton img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 500;
+}
+#inp{
+    margin-right: 12px;
+}
+.Options{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    width: 240px;
+    background: #e1e1e1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.Options-Button{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 240px;
+    height: 32px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.Options img{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.Options-First{
+    display: none;
+    flex-direction: row;
+    justify-content: start;
+}
+.Options-Second{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+}
